@@ -20,41 +20,41 @@ patches:
   - path: ./virtuoso-vocabulary.yaml
 images:
   - name: ghcr.io/datagov-cz/nkd-adapter
-    digest: sha256:9775c09f223e4e80116d2d1487619a63bd72fa7e4bc1536c2ae2d018359d9865
+    digest: sha256:304fbee4e8646f8c1d400378755f0e3c14d2671d620e896a33c17ae5d6e814c0
   - name: ghcr.io/datagov-cz/nkd-registration-manager
-    digest: sha256:6a091805a81a684238b0906e6595b3ff216a96955127e7f09128fff77e2db2bf
+    digest: sha256:a5e546171f79e7fd1ca2456fbf9c28bb9dad5a2e1feb57975a3f163d3da2275f
   - name: ghcr.io/datagov-cz/caais-middleware
-    newTag: main
+    digest: sha256:4687df9b0e13b1458bfc4198dc99b72f16b434126e46df4f5919b9b02363d97e
   - name: ghcr.io/datagov-cz/nkd-catalog
-    digest: sha256:89692ab278f3ad86a594e173d196d788717b686ff2d7d748d070686d8039d6df
+    digest: sha256:fbe07a65b2e9fee87d4fa511959e7e7c9d3b716c8deba0d00a3c058530cc1569
   - name: ghcr.io/datagov-cz/nkd-couchdb
-    digest: sha256:b6b77bb34bd03f5ea7e6af19f60d56051e2f70442945134db50a6fe76ae41a2d
+    digest: sha256:be754535680e046201ef5f620e3ef14a3be99fc430aeaf58985073b681a01510
   # Disabled for time of gov-design-system migration.
   # - name: ghcr.io/datagov-cz/gov-design-system
   #   newTag: 2025-07-01
   - name: ghcr.io/datagov-cz/nkd-forms
-    digest: sha256:eb38e00d083687f762782df1f2a0a39c7e9c6614c88c0a667def70b5ddd740a6
+    digest: sha256:b30fea64b3f178db767dd51c21e7b1d8c34eeeec29ebfa33796ebea4d13d5721
   - name: ghcr.io/datagov-cz/nkd-gateway
-    digest: sha256:389efccb85037b021b621bd9e75c3b5a6b2b20967b9751dfc719ae205c01a8c9
+    digest: sha256:c1a9de8b8f6e805a71e05ac83c433929b0386d7373279da92e0a5816275727d8
   - name: ghcr.io/datagov-cz/nkd-graphql
     digest: sha256:cee31980b5ef554eeeaf061f2ca3c31a2598209aaa121070dae50bb310e58fe8
   - name: ghcr.io/datagov-cz/nkd-ssh-server
-    digest: sha256:5602e9a334c633c3ead9d2a66504e1ad68230a1bc5d32f8058b06f0b5fc7b51d
+    digest: sha256:bc2979cf2438c8ca2b31b91e03b7ca255833f296626a5b4127500884600d8e18
   - name: ghcr.io/datagov-cz/nkd-ldf
-    digest: sha256:37f7b6b578ca9054566c10117f90b0f8348e3322f5da87df41f61dde11a8e8c6
-  - name: ghcr.io/datagov-cz/etl-storage
-    digest: sha256:71e00b525e2638a7a25fb3ddb7437dbde8c8dcec6ea846c00b7158c9faaae2d6
-  - name: ghcr.io/datagov-cz/etl-frontend
-    digest: sha256:afdecb4b470dd66ccabe38f1fe0c622dc4e2116176b1cd31d7eec93956ec9178
-  - name: ghcr.io/datagov-cz/etl-executor
-    digest: sha256:be239063ce398e9e93c819f7f8fea8db009fef2f54225e68f0dae2fa468081ae
-  - name: ghcr.io/datagov-cz/etl-executor-monitor
-    digest: sha256:59828caf05810ddd13f80900ffe9542dbef45577d86fa251c34baad9129922eb
+    digest: sha256:a565cbc8737d2ec946c37e290e6fcdc271f4cfa7ebd0bebd6234a53a4414c5d0
+  - name: ghcr.io/linkedpipes/etl-storage
+    digest: sha256:940f8bec62d66fb2aaa917eb4ca7392400a71924a5e6befc22b419462f9ac6eb
+  - name: ghcr.io/linkedpipes/etl-frontend
+    digest: sha256:04c63923a4831156e0510e1c3538f94f93588b11f2379d048b097b5cae03822c
+  - name: ghcr.io/linkedpipes/etl-executor
+    digest: sha256:47867135ac8fca65bd0c44458e543341fe0d688f51d4ebba9843e235b9348512
+  - name: ghcr.io/linkedpipes/etl-executor-monitor
+    digest: sha256:b9bb31537982589df006728f41c085e85b7dcab90b801afd94b4e909dc8fe990
   - name: ghcr.io/datagov-cz/nkd-orchestrator
-    digest: sha256:ee12754982e9274fccccd77dd655b1b41e4e415e951137131f4e22f95eb266d5
+    digest: sha256:b100ef00bee1fc13aa8e0cdb4cc0259795bd335a68d32d26238453516e4c0b62
   - name: ghcr.io/datagov-cz/nkd-jekyll
-    digest: sha256:b9b0105f5b6f8cfb7fe1d4af22ec25a81d410b06d6bf19afa6f3c4d1bd57da28
+    digest: sha256:58a0c4c9a99bc8110f5d55e6c5adddff2cb05fbde5b2b17a95d64bae566b760f
   - name: ghcr.io/datagov-cz/nkd-solr
-    digest: sha256:9d25e61caaf57e258273533bd4ebf56f0fe2982e9a85ee914523bc0f0707b72c
+    digest: sha256:c7dc2e7397af1a3f8363e08e709ea7ec9ed5c1cedcc12cdb2a935a1b73ab12eb
   - name: ghcr.io/datagov-cz/nkd-virtuoso
-    digest: sha256:6706972b6a9a51a8dd3d186f10ba2acbe18d6f940120057b4ad12722334854de
+    digest: sha256:228fc989d42f5ed949b93bb952c3b54dbc4e5556cbd9edb4bfee6c4d4c666941

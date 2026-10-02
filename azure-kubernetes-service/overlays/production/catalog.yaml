@@ -17,6 +17,17 @@ spec:
         agentpool: user1
       containers:
         - name: nkd-catalog
+          env:
+            - name: CONCEPT_SPARQL
+              value: "https://data.gov.cz/slovníky/sparql"
+            - name: CONCEPT_VIEWER_URL_TEMPLATE
+              value: "https://slovník-test.dia.gov.cz/popisujeme/concept/nkd?iri={}"
+            - name: GOV_DESIGN_SYSTEM_BASE
+              value: "/assets/design-system/4.7/"
+            - name: LABEL_CACHE_RELOAD_CRON
+              value: "*/5 * * * *"
+            - name: SITE_ORIGIN
+              value: "https://data.gov.cz/"
           resources:
             requests:
               memory: "512Mi"

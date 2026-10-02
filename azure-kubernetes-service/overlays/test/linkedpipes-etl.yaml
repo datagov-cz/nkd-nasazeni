@@ -10,24 +10,28 @@ spec:
     spec:
       containers:
         - name: nkd-linkedpipes-etl-executor
+          image: ghcr.io/linkedpipes/etl-executor
           resources:
             requests:
               memory: "4Gi"
             limits:
               memory: "6Gi"
         - name: nkd-linkedpipes-etl-executor-monitor
+          image: ghcr.io/linkedpipes/etl-executor-monitor
           resources:
             requests:
               memory: "512Mi"
             limits:
               memory: "1Gi"
         - name: nkd-linkedpipes-etl-frontend
+          image: ghcr.io/linkedpipes/etl-frontend
           resources:
             requests:
               memory: "128Mi"
             limits:
               memory: "256Mi"
         - name: nkd-linkedpipes-etl-storage
+          image: ghcr.io/linkedpipes/etl-storage
           resources:
             requests:
               memory: "512Mi"

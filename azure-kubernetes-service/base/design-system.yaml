@@ -20,7 +20,7 @@ spec:
           image: ghcr.io/datagov-cz/gov-design-system:2025-07-01
           imagePullPolicy: Always
         - name: nkd-design-system-v47
-          image: ghcr.io/datagov-cz/gov-design-system@sha256:a81ddfbf05af93c520a008a195f8854b70fae11f39820f2a3feab9ec6aae2ffa
+          image: ghcr.io/datagov-cz/gov-design-system@sha256:aff3c5d2b5daa872a855bf6479999cd52d9e57bac88ca980441b46304f1d8e3b
           digest:
           imagePullPolicy: Always
           env:
