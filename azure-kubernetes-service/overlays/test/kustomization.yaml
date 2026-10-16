@@ -33,7 +33,7 @@ images:
   # - name: ghcr.io/datagov-cz/gov-design-system
   #   newTag: 2025-07-01
   - name: ghcr.io/datagov-cz/nkd-forms
-    digest: sha256:b30fea64b3f178db767dd51c21e7b1d8c34eeeec29ebfa33796ebea4d13d5721
+    digest: sha256:8fde60c41276f713000895a1d27fe29e25eaa717d7c61a5a5089fc3f1c83e6f3
   - name: ghcr.io/datagov-cz/nkd-gateway
     digest: sha256:c1a9de8b8f6e805a71e05ac83c433929b0386d7373279da92e0a5816275727d8
   - name: ghcr.io/datagov-cz/nkd-graphql
@@ -53,7 +53,7 @@ images:
   - name: ghcr.io/datagov-cz/nkd-orchestrator
     digest: sha256:b100ef00bee1fc13aa8e0cdb4cc0259795bd335a68d32d26238453516e4c0b62
   - name: ghcr.io/datagov-cz/nkd-jekyll
-    digest: sha256:58a0c4c9a99bc8110f5d55e6c5adddff2cb05fbde5b2b17a95d64bae566b760f
+    digest: sha256:4f3bf8501d8f8c7cf1aa64f424da0474f00710e46a1800e8c1841ac316eba18d
   - name: ghcr.io/datagov-cz/nkd-solr
     digest: sha256:c7dc2e7397af1a3f8363e08e709ea7ec9ed5c1cedcc12cdb2a935a1b73ab12eb
   - name: ghcr.io/datagov-cz/nkd-virtuoso

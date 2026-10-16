@@ -10,6 +10,9 @@ spec:
     spec:
       containers:
         - name: nkd-portal-data-gov-cz
+          env:
+            - name: JEKYLL_BUILD_CONFIGURATION
+              value: "--config _config.yml,_config.development.yml"
           resources:
             requests:
               memory: "128Mi"
