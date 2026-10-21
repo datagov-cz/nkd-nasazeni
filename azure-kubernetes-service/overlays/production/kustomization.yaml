@@ -53,7 +53,7 @@ images:
   - name: ghcr.io/datagov-cz/nkd-orchestrator
     digest: sha256:b100ef00bee1fc13aa8e0cdb4cc0259795bd335a68d32d26238453516e4c0b62
   - name: ghcr.io/datagov-cz/nkd-jekyll
-    digest: sha256:4f3bf8501d8f8c7cf1aa64f424da0474f00710e46a1800e8c1841ac316eba18d
+    digest: sha256:23f32546123d26cead922a6ac38a5e4f1f617134340f1a21f097ffdca9cdb9bb
   - name: ghcr.io/datagov-cz/nkd-solr
     digest: sha256:c7dc2e7397af1a3f8363e08e709ea7ec9ed5c1cedcc12cdb2a935a1b73ab12eb
   - name: ghcr.io/datagov-cz/nkd-virtuoso
