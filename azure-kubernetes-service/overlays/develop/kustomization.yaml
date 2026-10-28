@@ -24,7 +24,7 @@ images:
   - name: ghcr.io/datagov-cz/nkd-registration-manager
     newTag: latest
   - name: ghcr.io/datagov-cz/caais-middleware
-    newTag: main
+    newTag: latest
   - name: ghcr.io/datagov-cz/nkd-catalog
     newTag: latest
   - name: ghcr.io/datagov-cz/nkd-couchdb
@@ -37,13 +37,13 @@ images:
   - name: ghcr.io/datagov-cz/nkd-gateway
     newTag: latest
   - name: ghcr.io/datagov-cz/nkd-graphql
-    newTag: develop
+    newTag: latest
   - name: ghcr.io/datagov-cz/nkd-ssh-server
     newTag: develop
   - name: ghcr.io/datagov-cz/nkd-ldf
-    newTag: develop
+    newTag: latest
   - name: ghcr.io/datagov-cz/nkd-jekyll
-    newTag: develop
+    newTag: latest
   - name: ghcr.io/datagov-cz/nkd-solr
     newTag: latest
   - name: ghcr.io/datagov-cz/nkd-virtuoso

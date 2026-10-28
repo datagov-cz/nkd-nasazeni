@@ -22,26 +22,26 @@ images:
   - name: ghcr.io/datagov-cz/nkd-adapter
     digest: sha256:304fbee4e8646f8c1d400378755f0e3c14d2671d620e896a33c17ae5d6e814c0
   - name: ghcr.io/datagov-cz/nkd-registration-manager
-    digest: sha256:a5e546171f79e7fd1ca2456fbf9c28bb9dad5a2e1feb57975a3f163d3da2275f
+    digest: sha256:f64d74c129328e0fbf7acc18fde9a69fb1a8a564aa8a6992895593b973abb90a
   - name: ghcr.io/datagov-cz/caais-middleware
-    digest: sha256:4687df9b0e13b1458bfc4198dc99b72f16b434126e46df4f5919b9b02363d97e
+    digest: sha256:8e7943809c5c9209b043e00bfa48073221773b244a2d5338290746e533c4e1f7
   - name: ghcr.io/datagov-cz/nkd-catalog
-    digest: sha256:fbe07a65b2e9fee87d4fa511959e7e7c9d3b716c8deba0d00a3c058530cc1569
+    digest: sha256:94bb177185b6859ee2e2b665c19814914be387f31416892d2d883a905c7a9b17
   - name: ghcr.io/datagov-cz/nkd-couchdb
     digest: sha256:be754535680e046201ef5f620e3ef14a3be99fc430aeaf58985073b681a01510
   # Disabled for time of gov-design-system migration.
   # - name: ghcr.io/datagov-cz/gov-design-system
   #   newTag: 2025-07-01
   - name: ghcr.io/datagov-cz/nkd-forms
-    digest: sha256:8fde60c41276f713000895a1d27fe29e25eaa717d7c61a5a5089fc3f1c83e6f3
+    digest: sha256:d11e60ba56393a2942f754d25070cb615c70a2d1ce53ffafea01eed1799e1838
   - name: ghcr.io/datagov-cz/nkd-gateway
     digest: sha256:c1a9de8b8f6e805a71e05ac83c433929b0386d7373279da92e0a5816275727d8
   - name: ghcr.io/datagov-cz/nkd-graphql
-    digest: sha256:cee31980b5ef554eeeaf061f2ca3c31a2598209aaa121070dae50bb310e58fe8
+    digest: sha256:f136a4920745047744767b0dcdcc63975a7bb97ca7d99761c0cebc24e7de7320
   - name: ghcr.io/datagov-cz/nkd-ssh-server
     digest: sha256:bc2979cf2438c8ca2b31b91e03b7ca255833f296626a5b4127500884600d8e18
   - name: ghcr.io/datagov-cz/nkd-ldf
-    digest: sha256:a565cbc8737d2ec946c37e290e6fcdc271f4cfa7ebd0bebd6234a53a4414c5d0
+    digest: sha256:b3c36df0f8ecf07b4b3a88c31bea990a48d3fa5ed95e05bfeb67551f37e8c45b
   - name: ghcr.io/linkedpipes/etl-storage
     digest: sha256:940f8bec62d66fb2aaa917eb4ca7392400a71924a5e6befc22b419462f9ac6eb
   - name: ghcr.io/linkedpipes/etl-frontend
